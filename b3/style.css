@@ -1,0 +1,39 @@
+body{
+     
+     background-color: aliceblue;
+     margin: 0%;
+     padding: 0;
+}
+.wrapper{
+    width: 100px;
+    margin: 0 auto;
+    
+}
+header{
+    background-color: blue;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 100%;
+}
+.content{
+    background-color: aquamarine;
+    height: 450px;
+    float: right;
+    width: calc(100%-250px);
+}
+.sidebar{
+    background-color: blue;
+    height: 450px;
+    float: left;
+    width: 250px;
+
+}
+.footer{
+    background-color: rgb(88, 54, 119);
+    height: 50px;
+    margin-top: 15px;
+    
+}
+.clear{
+    clear: both;
+}
